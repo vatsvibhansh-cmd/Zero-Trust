@@ -1,19 +1,23 @@
-# dependencies
 node_modules/
+.next/
+.env.local
+
+# all other env files too
+.env
+.env.*
+!.env.example
+
+# dependencies
 .pnp
 .pnp.*
 
-# next.js
-.next/
+# build output
 out/
 build/
+.vercel
 
 # testing
 coverage/
-
-# env files
-.env*
-!.env.example
 
 # logs
 *.log
@@ -26,6 +30,5 @@ yarn-error.log*
 .DS_Store
 Thumbs.db
 *.pem
-.vercel
 *.tsbuildinfo
 next-env.d.ts
