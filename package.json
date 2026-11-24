@@ -1,0 +1,11 @@
+{
+  "name": "ps07-zero-trust-root",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix ps07-zero-trust run dev",
+    "build": "npm --prefix ps07-zero-trust run build",
+    "start": "npm --prefix ps07-zero-trust run start",
+    "lint": "npm --prefix ps07-zero-trust run lint"
+  }
+}
